@@ -1,0 +1,53 @@
+#app-container {
+    width: 600px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+fieldset {
+    padding: .75rem !important;
+    background-color: #f8f8f8;
+    border: 1px solid transparent !important;
+    border-top: 1px solid #ebebeb !important;
+    border-bottom: 1px solid #ebebeb !important;
+    margin: 1rem 0 !important;
+    padding: 1rem !important;
+}
+legend {
+    padding: 0 .25rem !important;
+    font-weight: bold;
+    font-size: .85rem;
+}
+.rule-incl {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 .35rem 0;
+}
+.rule-incl label, .rule-incl .btn-group {
+    flex-shrink: 0;
+}
+.rule-incl .Select {
+    width: 100%;
+}
+.rule-incl > * {
+    margin: 0 .35rem;
+}
+.rule-incl .btn-group {
+    white-space: nowrap;
+}
+.rule-incl button {
+    width: 22px;
+    height: 22px;
+    line-height: 0;
+    font-size: 1rem;
+    padding: 0 0 2px 1px;
+    border-radius: 50% !important;
+}
+.rule-incl button + button {
+    margin-left: .25rem;
+}
+.Card .submit {
+    text-align: right;
+    margin: 1.5rem 0 .5rem;
+}
